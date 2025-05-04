@@ -75,7 +75,6 @@ export function Navigation() {
               {route.name}
             </Link>
           ))}
-          <ThemeToggle />
         </nav>
 
         {/* Mobile Menu Button */}
