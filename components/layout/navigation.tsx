@@ -7,6 +7,7 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { ThemeToggle } from "@/components/theme/theme-toggle"
+import Image from "next/image"
 
 export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -42,9 +43,18 @@ export function Navigation() {
     >
       <div className="container-custom flex items-center justify-between h-full">
         {/* Logo / Name */}
-        <Link href="/" className="font-playfair text-2xl font-bold tracking-tight">
-          Ro<span className="text-primary">Y</span>
-        </Link>
+        <Link href="/" className="flex items-center gap-2 font-playfair text-2xl font-bold tracking-tight">
+  <Image
+    src="/ghibli-guhan.jpeg"
+    alt="Profile"
+    width={32}
+    height={32}
+    className="rounded-full object-cover"
+  />
+  <span>
+    Ro<span className="text-primary">Y</span>
+  </span>
+</Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">

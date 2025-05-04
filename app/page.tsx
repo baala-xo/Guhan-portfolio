@@ -1,12 +1,13 @@
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowRight, Mail, Linkedin, Github } from "lucide-react"
+import { ArrowRight, Mail, Linkedin, Figma } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import ContactForm from "@/components/ui/contactForm"
+import BehanceShowcase from "@/components/ui/behance-showcase"
 
 export default function HomePage() {
   return (
     <div className="pt-20">
-
       {/* Hero Section */}
       <section className="container-custom section-spacing flex flex-col justify-center min-h-[90vh]">
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -21,7 +22,7 @@ export default function HomePage() {
               <h2 className="heading-md text-muted-foreground">UI UX Designer</h2>
             </div>
             <p className="body-lg text-muted-foreground max-w-md">
-              M.Sc. IT student passionate about building efficient and user-focused applications. Skilled in Figma.
+              M.Sc. IT graduate, passionate about building efficient and user-focused User-Interfaces. Skilled in <strong>Figma</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild size="lg" className="text-lg px-8">
@@ -35,7 +36,7 @@ export default function HomePage() {
           <div className="relative">
             <div className="relative z-10 aspect-square bg-muted rounded-2xl overflow-hidden border border-border">
               <Image
-                src="/ghibli-guhan.jpeg"
+                src="/guhan-alt.jpeg"
                 alt="Profile Image"
                 width={600}
                 height={600}
@@ -58,10 +59,10 @@ export default function HomePage() {
           I am currently pursuing my M.Sc. IT at Hindusthan College of Arts and Science. I have completed internships and projects in IoT and Deep Learning. I am passionate about UI/UX design, video editing, and solving real-world problems using technology.
         </p>
       </section>
-
+        <BehanceShowcase />
       {/* Projects Section */}
       <section id="projects" className="container-custom section-spacing">
-        <h2 className="heading-lg mb-8">Projects</h2>
+        <h2 className="heading-lg mb-8">Acadamic Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div className="p-6 border rounded-lg">
             <h3 className="text-2xl font-bold mb-2">Vision-Based Smart System Using IoT</h3>
@@ -81,9 +82,7 @@ export default function HomePage() {
           <li>Figma</li>
           <li>Canva</li>
           <li>Problem Solving</li>
-          <li>Communication</li>
-          <li>Teamwork</li>
-          <li>Photoshop</li>
+          <li>Communication</li>    
           <li>Lightroom</li>
         </ul>
       </section>
@@ -101,38 +100,25 @@ export default function HomePage() {
                 <Mail className="h-6 w-6 group-hover:scale-110 transition-transform" />
                 <span className="link-underline">guhan626@gmail.com</span>
               </a>
-              <a href="#" className="flex items-center gap-4 text-lg text-muted-foreground hover:text-foreground group">
+              <a href="https://www.linkedin.com/in/guhan-k-115a1b295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="flex items-center gap-4 text-lg text-muted-foreground hover:text-foreground group">
                 <Linkedin className="h-6 w-6 group-hover:scale-110 transition-transform" />
-                <span className="link-underline">LinkedIn (update link)</span>
+                <span className="link-underline">LinkedIn</span>
               </a>
-              <a href="#" className="flex items-center gap-4 text-lg text-muted-foreground hover:text-foreground group">
-                <Github className="h-6 w-6 group-hover:scale-110 transition-transform" />
-                <span className="link-underline">GitHub (update link)</span>
+              <a href="https://www.behance.net/guhan46" className="flex items-center gap-4 text-lg text-muted-foreground hover:text-foreground group">
+                <Figma className="h-6 w-6 group-hover:scale-110 transition-transform" />
+                <span className="link-underline">Behance</span>
+              </a>
+              <a href="tel:+918825730810" className="text-xl mt-8">
+                <span className="link-underline hover:text-foreground"> Phone: +91-8825730810</span>
               </a>
             </div>
-            <p className="text-xl mt-8">Phone: +91-8825730810</p>
           </div>
 
           <div>
-            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" className="flex flex-col gap-8">
-              <div>
-                <label htmlFor="name" className="block text-lg mb-2 font-medium">Name</label>
-                <input id="name" name="name" type="text" required className="w-full border-2 border-muted py-3 px-4 text-xl bg-transparent focus:outline-none focus:border-primary transition-colors rounded-md" placeholder="Your Name" />
-              </div>
-              <div>
-                <label htmlFor="email" className="block text-lg mb-2 font-medium">Email</label>
-                <input id="email" name="email" type="email" required className="w-full border-b-2 border-input py-3 text-xl bg-transparent focus:outline-none focus:border-primary transition-colors" placeholder="Your Email" />
-              </div>
-              <div>
-                <label htmlFor="message" className="block text-lg mb-2 font-medium">Message</label>
-                <textarea id="message" name="message" rows={4} required className="w-full border-b-2 border-input py-3 text-xl bg-transparent focus:outline-none focus:border-primary transition-colors" placeholder="Your Message"></textarea>
-              </div>
-              <Button type="submit" size="lg" className="text-lg px-8 w-full md:w-auto">Send Message</Button>
-            </form>
+            <ContactForm />
           </div>
         </div>
       </section>
-
     </div>
   )
 }

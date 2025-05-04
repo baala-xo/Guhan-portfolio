@@ -13,7 +13,7 @@ export function Footer() {
               Guhan<span className="text-primary">K</span>
             </Link>
             <p className="mt-4 text-muted-foreground">
-              Aspiring Software Developer passionate about creating clean, user-centered web applications.
+              Aspiring UI-UX Designer passionate about creating clean, user-centered Designs 💙.
             </p>
           </div>
 
@@ -61,10 +61,10 @@ export function Footer() {
                 <Linkedin className="h-6 w-6" />
                 <span className="sr-only">LinkedIn</span>
               </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+             {/* <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                 <Github className="h-6 w-6" />
                 <span className="sr-only">GitHub</span>
-              </a>
+  </a>*/}
             </div>
           </div>
 
