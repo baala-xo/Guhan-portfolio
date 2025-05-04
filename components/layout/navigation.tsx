@@ -44,13 +44,18 @@ export function Navigation() {
       <div className="container-custom flex items-center justify-between h-full">
         {/* Logo / Name */}
         <Link href="/" className="flex items-center gap-2 font-playfair text-2xl font-bold tracking-tight">
-  <Image
-    src="/ghibli-guhan.jpeg"
-    alt="Profile"
-    width={32}
-    height={32}
-    className="rounded-full object-cover"
-  />
+        <div className="relative w-12 h-12 rounded-full p-[2px] bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600">
+  <div className="bg-background rounded-full w-full h-full p-[2px]">
+    <Image
+      src="/pfp-2.jpeg"
+      alt="Profile"
+      width={40}
+      height={40}
+      className="rounded-full object-cover w-full h-full"
+    />
+  </div>
+</div>
+
   <span>
     Ro<span className="text-primary">Y</span>
   </span>
