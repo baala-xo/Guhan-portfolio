@@ -4,6 +4,7 @@ import { ArrowRight, Mail, Linkedin, Figma } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import ContactForm from "@/components/ui/contactForm"
 import BehanceShowcase from "@/components/ui/behance-showcase"
+import BehanceIcon from "@/components/ui/BehanceIcon";
 
 export default function HomePage() {
   return (
@@ -105,9 +106,16 @@ export default function HomePage() {
                 <span className="link-underline">LinkedIn</span>
               </a>
               <a href="https://www.behance.net/guhan46" className="flex items-center gap-4 text-lg text-muted-foreground hover:text-foreground group">
-                <Figma className="h-6 w-6 group-hover:scale-110 transition-transform" />
-                <span className="link-underline">Behance</span>
-              </a>
+              <Image
+  src="/behance.svg"
+  alt="Behance"
+  width={24}
+  height={24}
+  className="group-hover:scale-110 transition-transform"
+/>
+
+  <span className="link-underline">Behance</span>
+</a>
               <a href="tel:+918825730810" className="text-xl mt-8">
                 <span className="link-underline hover:text-foreground"> Phone: +91-8825730810</span>
               </a>
