@@ -11,6 +11,11 @@ const projects = [
     image: "/behance-pic.jpeg",
     url: "https://www.behance.net/gallery/225086901/NIKE-SNEAKER-SHOPPING",
   },
+  {
+    title: "Food Delivery App",
+    image: "/Food Delivery App.png",
+    url: "https://www.behance.net/gallery/225779813/Food-delivery-app",
+    },
  
 ]
 
