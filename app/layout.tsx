@@ -19,7 +19,12 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Guhan | UI-UX Designer Portfolio",
   description: "Portfolio of Guhan, a Ui uX Desugner specializing in Figma",
-    generator: 'v0.dev'
+    generator: 'v0.dev',
+    openGraph: {
+      title: "Guhan's portfolio",
+      description: "take a look at my portfolio 💙",
+     
+    }
 }
 
 export default function RootLayout({
