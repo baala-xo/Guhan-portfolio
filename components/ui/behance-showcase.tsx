@@ -12,12 +12,12 @@ const projects = [
     url: "https://www.behance.net/gallery/225086901/NIKE-SNEAKER-SHOPPING",
   },
   {
-    title: "FOODEZY",
+    title: "FOOD DELIVERY APP",
     image: "/Food Delivery App.png",
     url: "https://www.behance.net/gallery/225779813/Food-delivery-app",
     },
     {
-      title: "GLOWBAY",
+      title: "SALOON APOINTMENT BOOKING",
       image: "/GLOWBAYY.png",
       url: "https://www.behance.net/gallery/226142451/GLOWBAY",
     }
