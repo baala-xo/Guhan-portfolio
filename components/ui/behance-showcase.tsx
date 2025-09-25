@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 
 const projects = [
   {
-    title: "Minimalist Branding",
+    title: "MINIMALIST BRANDING",
     image: "/behance-pic.jpeg",
     url: "https://www.behance.net/gallery/225086901/NIKE-SNEAKER-SHOPPING",
   },
