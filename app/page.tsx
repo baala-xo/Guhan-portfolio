@@ -23,14 +23,14 @@ export default function HomePage() {
               <h2 className="heading-md text-muted-foreground">UI UX Designer</h2>
             </div>
             <p className="body-lg text-muted-foreground max-w-md">
-              M.Sc. IT graduate, passionate about building efficient and user-focused User-Interfaces. Skilled in <strong>Figma</strong>.
+              UI/UX Designer with a strong focus on crafting intuitive, user-friendly, and visually appealing digital experiences. Skilled in wireframing, prototyping, and usability testing to ensure seamless user journeys."
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild size="lg" className="text-lg px-8">
                 <Link href="#contact">Contact Me</Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="text-lg px-8">
-                <Link href="#projects">View Projects</Link>
+                <Link href="https://www.behance.net/guhan46">View Projects</Link>
               </Button>
             </div>
           </div>
@@ -57,7 +57,7 @@ export default function HomePage() {
       <section id="about" className="container-custom section-spacing">
         <h2 className="heading-lg mb-8">About</h2>
         <p className="body-lg text-muted-foreground max-w-3xl">
-          I am currently pursuing my M.Sc. IT at Hindusthan College of Arts and Science. I have completed internships and projects in IoT and Deep Learning. I am passionate about UI/UX design, video editing, and solving real-world problems using technology.
+          I have completed my M.Sc. IT at Hindusthan College of Arts and Science. I have gained experience through internships and projects in IoT and Deep Learning. As a UI/UX Designer, I specialize in creating efficient, user-focused, and visually engaging digital experiences with strong skills in wireframing and prototyping.
         </p>
       </section>
         <BehanceShowcase />
@@ -78,13 +78,12 @@ export default function HomePage() {
 
       {/* Skills Section */}
       <section id="skills" className="container-custom section-spacing">
-        <h2 className="heading-lg mb-8">Skills</h2>
+        <h2 className="heading-lg mb-8">Technical Skills</h2>
         <ul className="grid grid-cols-2 md:grid-cols-4 gap-6 text-lg text-muted-foreground">
           <li>Figma</li>
-          <li>Canva</li>
-          <li>Problem Solving</li>
-          <li>Communication</li>    
-          <li>Lightroom</li>
+          <li>Canva</li> 
+          <li>Adobe Illustrator</li>
+          <li>Photoshop</li>
         </ul>
       </section>
 
