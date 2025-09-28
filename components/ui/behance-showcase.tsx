@@ -7,6 +7,15 @@ import { motion } from "framer-motion"
 
 const projects = [
   {
+    title: "MEAT DELIVERY APP",
+    image: "/meat-app-thumnail.jpg",
+    url: "https://www.behance.net/gallery/235376103/Meat-Delivery-App",
+  },
+  {
+    title: "STUDENT ADMIN DASHBOARD",
+    image: "/student-app.jpg",
+    url: "https://www.behance.net/gallery/235463743/Student-Admin-Dashboard",
+  },{
     title: "MINIMALIST BRANDING",
     image: "/behance-pic.jpeg",
     url: "https://www.behance.net/gallery/225086901/NIKE-SNEAKER-SHOPPING",
