@@ -81,9 +81,9 @@ export default function HomePage() {
         <h2 className="heading-lg mb-8">Technical Skills</h2>
         <ul className="grid grid-cols-2 md:grid-cols-4 gap-6 text-lg text-muted-foreground">
           <li>Figma</li>
-          <li>Canva</li> 
+          <li>Photoshop</li> 
           <li>Adobe Illustrator</li>
-          <li>Photoshop</li>
+          <li>Illustrator</li>
         </ul>
       </section>
 
