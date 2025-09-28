@@ -79,7 +79,7 @@ export default function HomePage() {
       {/* Skills Section */}
       <section id="skills" className="container-custom section-spacing">
         <h2 className="heading-lg mb-8">Technical Skills</h2>
-        <ul className="grid grid-cols-2 md:grid-cols-4 gap-6 text-lg text-muted-foreground">
+        <ul className="pt-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-lg text-muted-foreground">
           <li>Figma</li>
           <li>Photoshop</li> 
           <li>Adobe Illustrator</li>
