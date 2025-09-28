@@ -8,7 +8,7 @@ import { motion } from "framer-motion"
 const projects = [
   {
     title: "MEAT DELIVERY APP",
-    image: "/meat-delivery.jpeg",
+    image: "/meat-app.jpeg",
     url: "https://www.behance.net/gallery/235376103/Meat-Delivery-App",
   },
   {
