@@ -30,7 +30,7 @@ export default function HomePage() {
                 <Link href="#contact">Contact Me</Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="text-lg px-8">
-                <Link href="#behance-showcase">View Projects</Link>
+                <Link href="#behance">View Projects</Link>
               </Button>
             </div>
           </div>
