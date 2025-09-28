@@ -8,12 +8,12 @@ import { motion } from "framer-motion"
 const projects = [
   {
     title: "MEAT DELIVERY APP",
-    image: "/meat-delivery.jpg",
+    image: "/meat-delivery.jpeg",
     url: "https://www.behance.net/gallery/235376103/Meat-Delivery-App",
   },
   {
     title: "STUDENT ADMIN DASHBOARD",
-    image: "/student-app.jpg",
+    image: "/student-app.jpeg",
     url: "https://www.behance.net/gallery/235463743/Student-Admin-Dashboard",
   },{
     title: "MINIMALIST BRANDING",
